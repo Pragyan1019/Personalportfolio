@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative md:min-h-screen h-[95vh] z-30">
+      <div className="relative md:min-h-screen  z-30">
       <div className="absolute w-[100%] h-[100%]  bg-black bg-gradient-to-t from-white/30 to-transparent -z-20"></div>
       <div style={{ width: '100%', height: '100vh', position: 'absolute',zIndex:-10}} >
   <Particles
@@ -60,7 +60,7 @@ export default function Home() {
             delay: 0.1,
             ease: "anticipate",
           }}
-          className="title text-white md:w-[70%]   mx-auto flex flex-col p-3 md:mt-20 mt-20 gap-5 z-10"
+          className="title text-white md:w-[70%]   mx-auto flex flex-col p-3 md:mt-20 mt-17 gap-5 z-10"
         >
           <motion.div className="md:text-8xl text-6xl  font-bold text-center z-10">
             Bu

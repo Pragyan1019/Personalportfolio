@@ -68,7 +68,7 @@ const Page = () => {
     
   
         </nav>
-        <div className="cards  grid-cols-3 grid-rows-2   w-[90%] p-2 grid gap-x-4 gap-y-3 mx-auto my-auto ">
+        <div className="cards  md:grid-cols-3 md:grid-rows-2   w-[90%] p-2 grid gap-x-4 gap-y-3 mx-auto my-auto ">
           <motion.div
                       className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
