@@ -70,7 +70,7 @@ const Service = () => {
         <div className="main md:w-[60%] w-[95%] mx-auto mt-3">
 <div className="title text-center">
   <p className='text-3xl'><strong>Services to Bring Your Ideas to Life</strong></p> <br />
-  <p className='text-[#B0B0B0]  leading-relaxed text-xl'>I specialize in turning complex problems into elegant, high-performance digital solutions. Whether you're a startup needing a web presence or an established business looking to upgrade, I provide the development expertise to achieve your goals.</p>
+  <p className='text-[#B0B0B0]  leading-relaxed text-xl'>I specialize in turning complex problems into elegant, high-performance digital solutions. Whether you&rsquo;re a startup needing a web presence or an established business looking to upgrade, I provide the development expertise to achieve your goals.</p>
 </div><br /><br />
 <div className="offerings text-center ">
     <p className='text-3xl'><strong>My Core Offerings</strong></p> <br />
@@ -84,7 +84,7 @@ const Service = () => {
     <Myservices
     link="rocket.png"
     topic="Responsive & Performant Websites"
-    desc="A modern website must be fast and look great on all devices. I specialize in performance optimization and responsive design, ensuring your users have a seamless experience whether they're on a phone, tablet, or desktop.
+    desc="A modern website must be fast and look great on all devices. I specialize in performance optimization and responsive design, ensuring your users have a seamless experience whether they&rsquo;re on a phone, tablet, or desktop.
 "/>
     <Myservices
     link="codebranch.png"
@@ -94,7 +94,7 @@ const Service = () => {
     <Myservices
     link="lightbulb.png"
     topic="Technical Consultation & Code Audits "
-    desc="  Leveraging my 'Human-First Engineering' philosophy, I can review your existing codebase to identify performance bottlenecks, improve scalability, and ensure best practices are in place, providing actionable insights for your team.
+    desc="  Leveraging my &apos;Human-First Engineering&apos; philosophy, I can review your existing codebase to identify performance bottlenecks, improve scalability, and ensure best practices are in place, providing actionable insights for your team.
 "/>
      
 
@@ -103,13 +103,13 @@ const Service = () => {
     <p className='text-3xl'><strong>My Development Process</strong></p> <br />
 <div className="first">
       <p className='text-2xl'><strong>1. Discover & Plan</strong></p> 
-       <p className='text-[#B0B0B0]  leading-relaxed'>We&apos;ll start with a deep dive into your project goals, target audience, and technical requirements. I&apos;ll create a detailed project scope and roadmap to ensure we&apos;re aligned from day one.</p>
+       <p className='text-[#B0B0B0]  leading-relaxed'>We&rsquo;ll start with a deep dive into your project goals, target audience, and technical requirements. I&rsquo;ll create a detailed project scope and roadmap to ensure we&rsquo;re aligned from day one.</p>
     <p className='text-4xl mb-6'>  &#x2193;</p>
       <p className='text-2xl'><strong>2. Design & Develop</strong></p> 
-       <p className='text-[#B0B0B0]  leading-relaxed'>This is where the magic happens. I&apos;ll architect the system and begin crafting clean, efficient code. I believe in transparent progress, so you&apos;ll receive regular updates throughout the development cycle.</p>
+       <p className='text-[#B0B0B0]  leading-relaxed'>This is where the magic happens. I&rsquo;ll architect the system and begin crafting clean, efficient code. I believe in transparent progress, so you&rsquo;ll receive regular updates throughout the development cycle.</p>
     <p className='text-4xl mb-6'>  &#x2193;</p>
       <p className='text-2xl'><strong>3. Test & Deploy</strong></p> 
-       <p className='text-[#B0B0B0]  leading-relaxed'>This is where the magic happens. I&apos;ll architect the system and begin crafting clean, efficient code. I believe in transparent progress, so you&apos;ll receive regular updates throughout the development cycle.</p>
+       <p className='text-[#B0B0B0]  leading-relaxed'>This is where the magic happens. I&rsquo;ll architect the system and begin crafting clean, efficient code. I believe in transparent progress, so you&rsquo;ll receive regular updates throughout the development cycle.</p>
     <p className='text-4xl mb-6'>  &#x2193;</p>
       <p className='text-2xl'><strong>4. Support & Iterate</strong></p> 
        <p className='text-[#B0B0B0]  leading-relaxed'>The launch is just the beginning. I offer ongoing support and maintenance packages to keep your application running smoothly and can work with you to iterate and add new features as your business grows.</p>
@@ -118,7 +118,7 @@ const Service = () => {
     </div>
     <div className="cta text-center">
     <p className='text-3xl'><strong>Have a project in mind?</strong></p> <br />
-<p className='text-[#B0B0B0]  leading-relaxed'>I&apos;m currently available for freelance projects and full-time roles. If you&apos;re looking for a developer who can hit the ground running and contribute from day one, let&apos;s talk.</p><br />
+<p className='text-[#B0B0B0]  leading-relaxed'>I&rsquo;m currently available for freelance projects and full-time roles. If you&rsquo;re looking for a developer who can hit the ground running and contribute from day one, let&rsquo;s talk.</p><br />
 <a href="https://www.linkedin.com/in/pragyan-ghimire-508717363/"className='  px-5 py-4 rounded border-none bg-teal-500 text-white font-semibold z-10 py-2 px-5 rounded-3xl transition-colors hover:bg-teal-400 hover:cursor-pointer' target='_blank'>Let's Build Together</a>
     </div>
 
