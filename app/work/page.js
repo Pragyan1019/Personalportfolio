@@ -4,6 +4,7 @@ import { motion, scale, useScroll, useTransform } from "framer-motion";
 import Link from 'next/link';
            import Flippablecards from '../components/Flippablecards';
 
+ import  Particles  from '@/app/components/background';
 
 
 const Page = () => {
@@ -11,8 +12,21 @@ const Page = () => {
   return (
     <>
     
-     <div className="relative project min-h-screen bg-black text-white bg-gradient-to-b from-white/30 to-transparent">
-   <nav className='md:w-[70%] mx-auto md:px-3 flex  pb-2 text-xl md:text-2xl items-center md:justify-between '>
+     <div className="relative md:min-h-screen h-[95vh] z-30">
+      <div className="absolute w-[100%] h-[100%]  bg-black bg-gradient-to-b from-white/30 to-transparent -z-20"></div>
+           <div style={{ width: '100%', height: '100vh', position: 'absolute',zIndex:-10}}>
+  <Particles
+    particleColors={['#ffffff', '#ffffff']}
+    particleCount={700}
+    particleSpread={10}
+    speed={0.1}
+    particleBaseSize={100}
+    moveParticlesOnHover={false}
+    alphaParticles={false}
+    disableRotation={false}
+  />
+</div>
+   <nav className='md:w-[70%] mx-auto md:px-3 flex  pb-2 text-xl md:text-2xl items-center md:justify-between z-50 '>
   <Link href="/">  <motion.h1
           initial={{
             opacity: 0,
@@ -27,7 +41,7 @@ const Page = () => {
             y: 0,
           }}
           viewport={{ once: true }}
-          className="text-center p-4 text-4xl font-semibold"
+          className="text-center p-4 text-4xl font-semibold z-50"
         >
           <svg 
   width="60" 
@@ -45,18 +59,18 @@ const Page = () => {
         
         className='flex gap-9'>
       <Link href="/">     <motion.li 
-        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out'>Home</motion.li></Link> 
+        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out z-50'>Home</motion.li></Link> 
        <Link href="/about">      <motion.li 
-        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out'>About</motion.li></Link>
+        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out z-50'>About</motion.li></Link>
         <Link href="/services">     <motion.li 
-        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out'>Service</motion.li></Link>
+        initial="hidden" animate="visible" className='font-semibold cursor-pointer hover:scale-120 transition-all ease-in-out z-50'>Service</motion.li></Link>
         </motion.ul>
     
   
         </nav>
-        <div className="cards  grid-cols-3 grid-rows-2   w-[90%] p-2 grid gap-x-4 gap-y-3 mx-auto my-auto">
+        <div className="cards  grid-cols-3 grid-rows-2   w-[90%] p-2 grid gap-x-4 gap-y-3 mx-auto my-auto ">
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="Question Bank - NEB Exam Platform"
             frontImage="project1.png"
@@ -68,7 +82,7 @@ const Page = () => {
             codeLink="https://github.com/Pragyan1019/Questionbank"/>
            </motion.div>
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="SecurePass - A Local Password Manager"
             frontImage="project2.png"
@@ -81,7 +95,7 @@ const Page = () => {
            </motion.div>
  
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="MelodyBox - Your Personal Music Hub"
             frontImage="project3.png"
@@ -94,7 +108,7 @@ const Page = () => {
            </motion.div>
  
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="X - A Social Media Clone"
             frontImage="project4.png"
@@ -107,7 +121,7 @@ const Page = () => {
            </motion.div>
  
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="Todo - A Minimalist Todo Application"
             frontImage="project5.png"
@@ -120,7 +134,7 @@ const Page = () => {
            </motion.div>
  
           <motion.div
-                      className=" overflow-hidden grid grid-cols-1 ">
+                      className=" overflow-hidden grid grid-cols-1 z-10">
                         <Flippablecards
                          title="Personal Portfolio - A Developer's Showcase"
             frontImage="project6.png"

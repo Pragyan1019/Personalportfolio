@@ -24,6 +24,7 @@ const listitemVarients={
 const Service = () => {
   return (
             <div className="relative project min-h-screen bg-black text-white bg-gradient-to-b from-white/30 to-transparent box-border px-4 pb-8">
+              
 <nav className='md:w-[70%] mx-auto md:px-3 flex   text-xl pb-2 md:text-2xl items-center md:justify-between '>
  <Link href="/">   <motion.h1
           initial={{

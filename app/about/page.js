@@ -110,9 +110,9 @@ const Page = () => {
               <a href="https://www.linkedin.com/in/pragyan-ghimire-508717363/" target="_blank">  <button className="bg-teal-500 text-white font-semibold z-10 py-2 px-5 rounded-3xl transition-colors hover:bg-teal-400 hover:cursor-pointer">
                   Get in touch
                 </button></a>
-                <button className="font-semibold border border-slate-600 z-10 text-slate-300 py-2 px-5 rounded-3xl transition-colors hover:bg-slate-800 hover:border-slate-500 hover:cursor-pointer">
+             <Link href="/resume">  <button className="font-semibold border border-slate-600 z-10 text-slate-300 py-2 px-5 rounded-3xl transition-colors hover:bg-slate-800 hover:border-slate-500 hover:cursor-pointer">
                   View resume
-                </button>
+                </button></Link> 
               </div>
             </div>
           </div>

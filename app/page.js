@@ -36,8 +36,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative md:min-h-screen h-[95vh] bg-black bg-gradient-to-t from-white/30 to-transparent">
-      {/* <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
+      <div className="relative md:min-h-screen h-[95vh] z-30">
+      <div className="absolute w-[100%] h-[100%]  bg-black bg-gradient-to-t from-white/30 to-transparent -z-20"></div>
+      <div style={{ width: '100%', height: '100vh', position: 'absolute',zIndex:-10}} >
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -48,7 +49,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
         <Navbar />
         <motion.div
           animate={{
@@ -63,7 +64,7 @@ export default function Home() {
         >
           <motion.div className="md:text-8xl text-6xl  font-bold text-center z-10">
             Bu
-            {/* <motion.span className="relative inline-block z-10">
+            <motion.span className="relative hidden md:inline-block z-10">
               <motion.span
                 animate={{
                   y: [-1000, 10, 0],
@@ -89,7 +90,7 @@ export default function Home() {
               >
                 &#305;
               </motion.span>
-            </motion.span> */}
+            </motion.span>
           <span className="md:hidden">i</span>lding the
             <span className=" z-10">
               <GradientText
@@ -109,10 +110,10 @@ export default function Home() {
             user-centric digital experiences.
           </motion.div>
           <div className="flex mx-auto  gap-5 md:mt-0 mt-10">
-       <a href="https://www.linkedin.com/in/pragyan-ghimire-508717363/" target="_blank">    <button className="bg-teal-500 text-white font-semibold z-10 py-2 px-5 rounded-3xl transition-colors hover:bg-teal-400 hover:cursor-pointer">
+       <a href="https://www.linkedin.com/in/pragyan-ghimire-508717363/" target="_blank">    <button className="bg-teal-500 text-white font-semibold z-30 py-2 px-5 rounded-3xl transition-colors hover:bg-teal-400 hover:cursor-pointer">
               Contact us
             </button></a> 
-        <Link href="/work">   <button className="font-semibold border border-slate-600 z-10 text-slate-300 py-2 px-5 rounded-3xl transition-colors hover:bg-slate-800 hover:border-slate-500 hover:cursor-pointer">
+        <Link href="/work">   <button className="font-semibold border border-slate-600 z-30 text-slate-300 py-2 px-5 rounded-3xl transition-colors hover:bg-slate-800 hover:border-slate-500 hover:cursor-pointer">
               View My Work
             </button></Link> 
           </div>
@@ -169,7 +170,7 @@ export default function Home() {
       </div>
 
       <div className="project relative md:min-h-screen h-[95vh] bg-black text-white bg-gradient-to-b from-white/30 to-transparent">
-       {/* <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
+       <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -180,7 +181,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
         <motion.h1
           initial={{
             opacity: 0,
@@ -384,7 +385,7 @@ export default function Home() {
       </div>
             <div className="contact flex justify-center items-center min-h-screen bg-black text-white bg-gradient-to-t from-white/30 to-transparent relative">
 
-{/* <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
+<div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -395,7 +396,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
 
 
 {/* <div className="md:w-[80%] md:h-[80%] absolute top-0 left-0 w-[100%] h-[50%]" >
