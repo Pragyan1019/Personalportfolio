@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
            import { useState } from "react";
+           import Image from 'next/image';
 
 import { motion, scale, useScroll, useTransform } from "framer-motion";
 
@@ -23,7 +24,7 @@ const Card = () => {
                       
                       >
                         <div className="front absolute w-full h-full" style={{ backfaceVisibility: "hidden" }}>
-<img src="pragyanimage.jpg" alt="Photo of Pragyan"   className="rounded-t-2xl bg-linear-60 w-full h-full object-cover"/>
+<img src="pragyanimage.jpg" alt="Photo of Pragyan"  className="rounded-t-2xl bg-linear-60 w-full h-full object-cover"/>
 <motion.div className="p  px-4 py-2  absolute bottom-0 left-0 w-full p-4
                         bg-black/30 backdrop-blur-sm text-white">
 <motion.p className="p font-bold text-center text-xl  mb-1">Pragyan Ghimire | Web Developer</motion.p>
@@ -33,7 +34,7 @@ const Card = () => {
    <div className="back absolute w-full h-full  bg-slate-800 rounded-2xl px-6 py-4 text-white flex flex-col justify-evenly items-center  gap-8" style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}>
      <div className="about">
      <h3 className='text-2xl font-bold mb-3'> About Me</h3> 
-     <p className='text-slate-300 '> Student developer with a strategist's mind from chess and a love for teamwork from football.</p>
+     <p className='text-slate-300 '> Student developer with a strategist&rsquo;s mind from chess and a love for teamwork from football.</p>
     </div>
     <motion.div className="flex flex-wrap  gap-2 text-start w-full">
         <ul className=' font-bold '><span className='text-2xl'>Skills</span>
