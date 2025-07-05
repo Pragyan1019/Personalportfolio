@@ -38,7 +38,7 @@ export default function Home() {
     <>
       <div className="relative md:min-h-screen h-[95vh] z-30">
       <div className="absolute w-[100%] h-[100%]  bg-black bg-gradient-to-t from-white/30 to-transparent -z-20"></div>
-      {/* <div style={{ width: '100%', height: '100vh', position: 'absolute',zIndex:-10}} >
+      <div style={{ width: '100%', height: '100vh', position: 'absolute',zIndex:-10}} >
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -49,7 +49,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
         <Navbar />
         <motion.div
           animate={{
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
 
       <div className="project relative md:min-h-screen h-[95vh] bg-black text-white bg-gradient-to-b from-white/30 to-transparent">
-       {/* <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
+       <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -181,7 +181,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
         <motion.h1
           initial={{
             opacity: 0,
@@ -385,7 +385,7 @@ export default function Home() {
       </div>
             <div className="contact flex justify-center items-center min-h-screen bg-black text-white bg-gradient-to-t from-white/30 to-transparent relative">
 
-{/* <div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
+<div style={{ width: '100%', height: '100vh', position: 'absolute'}}>
   <Particles
     particleColors={['#ffffff', '#ffffff']}
     particleCount={700}
@@ -396,7 +396,7 @@ export default function Home() {
     alphaParticles={false}
     disableRotation={false}
   />
-</div> */}
+</div>
 
 
 {/* <div className="md:w-[80%] md:h-[80%] absolute top-0 left-0 w-[100%] h-[50%]" >
