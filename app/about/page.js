@@ -298,9 +298,9 @@ const Page = () => {
               <strong>Have a project in mind?</strong>{" "}
             </p>
             <p className="mb-5  leading-relaxed">
-              I&apos;m currently available for freelance projects and full-time
-              roles. If you&apos;re looking for a developer who can hit the
-              ground running and contribute from day one, let&apos;s talk.
+              I&rsquo;m currently available for freelance projects and full-time
+              roles. If you&rsquo;re looking for a developer who can hit the
+              ground running and contribute from day one, let&rsquo;s talk.
             </p>
           </div>
         </div>

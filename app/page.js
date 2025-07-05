@@ -105,7 +105,7 @@ export default function Home() {
             Web.
           </motion.div>
           <motion.div className="text-center w-[60%] mx-auto z-10 md:mt-0 mt-4 leading-relaxed">
-            Hi, I&apos;m Pragyan. I architect and develop high-performance web
+            Hi, I&rsquo;m Pragyan. I architect and develop high-performance web
             applications, using React, Next.js, and Node.js to craft seamless,
             user-centric digital experiences.
           </motion.div>
