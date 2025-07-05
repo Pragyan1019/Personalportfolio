@@ -94,7 +94,7 @@ const Service = () => {
     <Myservices
     link="lightbulb.png"
     topic="Technical Consultation & Code Audits "
-    desc="  Leveraging my &apos;Human-First Engineering&apos; philosophy, I can review your existing codebase to identify performance bottlenecks, improve scalability, and ensure best practices are in place, providing actionable insights for your team.
+    desc="  Leveraging my &lsquo;Human-First Engineering&rsquo; philosophy, I can review your existing codebase to identify performance bottlenecks, improve scalability, and ensure best practices are in place, providing actionable insights for your team.
 "/>
      
 
